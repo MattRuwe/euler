@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolutions", "ProblemSolutions\ProblemSolutions.csproj", "{62A1E78C-FAC3-48DD-B5FD-68E3AFC2896E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemSolutions", "ProblemSolutions\ProblemSolutions.csproj", "{62A1E78C-FAC3-48DD-B5FD-68E3AFC2896E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerTests", "EulerTests\EulerTests.csproj", "{D0835055-8ADA-4D8D-8DBD-65304A23AFC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,17 +17,15 @@ Global
 		{62A1E78C-FAC3-48DD-B5FD-68E3AFC2896E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A1E78C-FAC3-48DD-B5FD-68E3AFC2896E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A1E78C-FAC3-48DD-B5FD-68E3AFC2896E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0835055-8ADA-4D8D-8DBD-65304A23AFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0835055-8ADA-4D8D-8DBD-65304A23AFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0835055-8ADA-4D8D-8DBD-65304A23AFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0835055-8ADA-4D8D-8DBD-65304A23AFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://mattruwe.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ProblemSolutions\\ProblemSolutions.csproj
-		SccProjectName1 = ProblemSolutions
-		SccLocalPath1 = ProblemSolutions
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AFCB8F0-C4E8-4A3D-9408-1B22B69F72C9}
 	EndGlobalSection
 EndGlobal
